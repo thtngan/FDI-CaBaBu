@@ -6,9 +6,11 @@ export default function Header(){
           
             <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div class="flex-shrink-0 flex items-center">
-                    Logo
+                    <img class="object-contain h-11 w-11" src="/logoCovMAP-02.svg" alt="logo"></img>
+                    <img class="object-contain h-11" src="/covMAP.svg" alt="logo"></img>
+
                 </div>
-                <div class="hidden sm:block sm:ml-6">
+                <div class="hidden sm:block sm:ml-12">
                     <div class="flex space-x-4">
                         <a href="#" class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
 
