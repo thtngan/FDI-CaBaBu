@@ -1,12 +1,10 @@
+import MyRoute from "./router/MyRoute";
 import Home from "./pages/Home";
-
-
-function App() {
+import SendHelp from "./pages/SendHelp";
+export default function App() {
   return (
     <div className="App">
-      <Home/>
+      <SendHelp/>
     </div>
   );
 }
-
-export default App;

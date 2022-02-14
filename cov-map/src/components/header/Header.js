@@ -1,3 +1,6 @@
+import React from "react";
+
+
 export default function Header(){
     return (
         <nav class="bg-orange-500 fixed w-full">
@@ -13,8 +16,9 @@ export default function Header(){
                 <div class="hidden sm:block sm:ml-12">
                     <div class="flex space-x-4">
                         <a href="#" class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
-
-                        <a href="#" class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">About us</a>
+                        <a href="#" class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">About us
+                        </a>
+                        
 
                     </div>
                 </div>
