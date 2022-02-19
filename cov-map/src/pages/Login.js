@@ -1,16 +1,18 @@
 export default function Login(){
     return (
         <div class="font-sans">
-            <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-orange-100">
+            <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-gradient-to-r from-red-200 to-orange-100
+">
                 <div class="relative sm:max-w-sm w-full">
                     <div class="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
                     <div class="card bg-orange-400 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
                     <div class="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">
-                        <label for="" class="block mt-3 text-2xl text-gray-700 text-center font-semibold">
-                            Login
+                    <img class="object-contain h-11 w-11" src="/logoCovMAP-02.svg" alt="logo"></img>
+                        <label for="" class="block mt-3 text-2xl text-gray-700 text-center font-semisolid">            
+                            WELCOME!
                         </label>
                         <form method="#" action="#" class="mt-10">
-                            <input type="email" placeholder="Usename" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
+                            <input type="text" placeholder="Username" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
                 
                             <div class="mt-7">                
                                 <input type="password" placeholder="Password" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>                           

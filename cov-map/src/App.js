@@ -5,12 +5,13 @@ import WantToHelp from "./pages/WantToHelp";
 import Header from "./components/header/Header";
 import HelpForm from "./pages/HelpForm";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
+//import AboutUs from "./pages/AboutUs";
 export default function App() {
   return (
     <div className="App">
-      {/*<HelpForm/> */}
+      <Register/>
       {/* <SendHelp/> */}
-      <Login/>
     </div>
   );
 }
