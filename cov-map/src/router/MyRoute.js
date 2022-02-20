@@ -5,6 +5,8 @@ import Home from "../pages/Home";
 import SendHelp from "../pages/SendHelp";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import AboutUs from "../pages/AboutUs";
+import WantToHelp from "../pages/WantToHelp";
 const userData = false;
 export default function MyRoute() {
     return (
@@ -19,9 +21,10 @@ export default function MyRoute() {
             >
                 </Route> */}
                 <Route path="/" element={<Home/>}/>
-                
+                <Route path="/login" element={<Login/>}/>         
                 <Route path="/register" element={<Register/>}/>
-                
+                <Route path="/about" element={<AboutUs/>}/>
+                <Route path="/want-help" element={<WantToHelp/>}/>           
                 <Route path="/send-help" element={<SendHelp/>}/>
 
             </Routes>     

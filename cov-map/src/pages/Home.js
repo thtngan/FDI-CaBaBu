@@ -1,25 +1,26 @@
 import Header from "../components/header/Header";
+import AboutUs from "./AboutUs";
 import React from "react";
-import { Navigate } from "react-router";
 import { Link } from "react-router-dom";
-
-
 
 const Home = () => {
     return ( 
     <div className="min-h-screen ">
         <Header/>
-        <section className="bg-white border-b py-8">
-        <div className="bg-transparent text-white font-mono flex flex-col">
+        <section className="bg-white border-b py-8  bg-gradient-to-r from-red-400 to-yellow-200">
+        <br></br>
+        <div className="text-white font-mono flex flex-col mt-4">
             <div className="flex flex-row-reverse flex-wrap m-auto">
-                <button className="m-4 hover:bg-orange-700 w-64 h-64 rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-orange-500 border-orange-600 text-white">
+                <button className="m-4 hover:bg-orange-700 w-40 h-20 rounded px-3 py-2 m-4 border-b-4 border-l-2 shadow-lg bg-orange-500 border-orange-600 text-white">
                 <Link to="/send-help">
                 I need help
                 </Link>
                 
                 </button>
-            <button className="m-4 hover:bg-orange-700 w-64 h-64 rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-orange-500 border-orange-600 text-white">
-                I want to help
+            <button className="m-4 hover:bg-orange-700 w-40 h-20 rounded px-3 py-2 m-4 border-b-4 border-l-2 shadow-lg bg-orange-500 border-orange-600 text-white">
+              <Link to="/want-help">
+              I want to help
+              </Link>
             </button>
             
             </div>
@@ -193,6 +194,11 @@ const Home = () => {
         </div>
       </div>
     </section>
+    <div className="container mx-auto xl:px-40 bg-gray-10 pb-5">
+    <AboutUs/>
+
+    </div>
+
     </div>
      
      );
