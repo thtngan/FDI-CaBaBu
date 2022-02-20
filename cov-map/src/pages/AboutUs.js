@@ -39,7 +39,7 @@ export default function AboutUs() {
       srcImg: "/Ava_Ngan.jpg",
       linkFb: "https://www.facebook.com/ngn.tranhoangthao",
       linkedIn: "",
-      linkGit: "",
+      linkGit: "https://github.com/thtngan",
     },
     {
       name: "Le Thien Kim",
@@ -47,7 +47,7 @@ export default function AboutUs() {
       srcImg: "Ava_Kim.jpg",
       linkFb: "https://www.facebook.com/profile.php?id=100061739424693",
       linkedIn: "",
-      linkGit: "",
+      linkGit: "https://github.com/MyrtilleKim",
     },
     {
       name: "Le Thi Phuong Linh",
@@ -63,7 +63,7 @@ export default function AboutUs() {
       srcImg: "/Ava_Dieu.png",
       linkFb: "https://www.facebook.com/ndiuu",
       linkedIn: "",
-      linkGit: "",
+      linkGit: "https://github.com/ninaninan0o0",
     },
     {
       name: "Le Hoang Kim Thanh",
@@ -71,7 +71,7 @@ export default function AboutUs() {
       srcImg: "/Ava_Thanh.jpg",
       linkFb: "https://www.facebook.com/kimthanh3001",
       linkedIn: "",
-      linkGit: "",
+      linkGit: "https://github.com/Kimthanh11",
     },
   ];
   return (
@@ -87,6 +87,7 @@ export default function AboutUs() {
           </div>
         ))}
       </Slider>
+
     </div>
   );
 }

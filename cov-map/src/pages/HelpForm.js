@@ -1,4 +1,6 @@
 import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
+
 const HelpForm = () => {
     return ( 
         <div>
@@ -26,6 +28,7 @@ const HelpForm = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
      );
 }

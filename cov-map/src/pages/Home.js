@@ -1,4 +1,5 @@
 import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
 import AboutUs from "./AboutUs";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -196,9 +197,10 @@ const Home = () => {
     </section>
     <div className="container mx-auto xl:px-40 bg-gray-10 pb-5">
     <AboutUs/>
+   
 
     </div>
-
+    <Footer/>
     </div>
      
      );

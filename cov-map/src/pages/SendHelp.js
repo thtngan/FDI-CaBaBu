@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
 import { IoFastFoodOutline } from 'react-icons/io5';
 import {MdOutlineHealthAndSafety} from 'react-icons/md';
 import {FaToolbox} from 'react-icons/fa';
@@ -35,7 +36,7 @@ export default function SendHelp(){
     return (
         <div>
             <div className="pb-7">
-            <Header/>   
+            <Header/>  
             </div>
             <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 pt-7 mt-5">
             <form action="#" method="POST">
@@ -134,7 +135,7 @@ export default function SendHelp(){
                 </div>
             </form>
             </section>
-
+            <Footer/> 
         </div>
     );
 }
