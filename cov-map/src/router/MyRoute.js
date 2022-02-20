@@ -1,47 +1,30 @@
-import {BrowserRouter as Route, Routes } from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import { Navigate } from "react-router";
-import SplashRoute from "../components/animation/SplashRoute";
 import Home from "../pages/Home";
 import SendHelp from "../pages/SendHelp";
 import Login from "../pages/Login";
-const userData = true;
+import Register from "../pages/Register";
+const userData = false;
 export default function MyRoute() {
     return (
-        <Routes>
-                <Route path="/login">
+        <Router>
+           <Routes>
+           {/* <Route path="/login" element=
                     {
                         userData ?
                         <Navigate to="/" /> :
-                            <SplashRoute key="/login">
-                                <Login/>
-                        
-                            </SplashRoute>
+                            <Login/>
                     }
+            >
+                </Route> */}
+                <Route path="/" element={<Home/>}/>
+                
+                <Route path="/register" element={<Register/>}/>
+                
+                <Route path="/send-help" element={<SendHelp/>}/>
 
-                </Route>
-                <Route path="/register">
-                    {
-                        userData ?
-                         <Navigate to="/" /> :
-                            <SplashRoute key="/register">
-                                <Home/>
-                            </SplashRoute>
-                    }
-                </Route>
-
-                <Route path="/send-help">
-                    <SplashRoute key="/send-help">
-                        <SendHelp/>
-                    </SplashRoute>
-                </Route>
-
-                <Route exact path="/">
-                    <SplashRoute key="/">
-                        <Home />
-                    </SplashRoute>
-                </Route>
-
-            </Routes>
+            </Routes>     
+        </Router>
     );
 }

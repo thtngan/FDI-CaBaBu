@@ -1,8 +1,11 @@
 import Header from "../components/header/Header";
 import React from "react";
+import { Navigate } from "react-router";
+import { Link } from "react-router-dom";
+
+
 
 const Home = () => {
-
     return ( 
     <div className="min-h-screen ">
         <Header/>
@@ -10,7 +13,10 @@ const Home = () => {
         <div className="bg-transparent text-white font-mono flex flex-col">
             <div className="flex flex-row-reverse flex-wrap m-auto">
                 <button className="m-4 hover:bg-orange-700 w-64 h-64 rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-orange-500 border-orange-600 text-white">
+                <Link to="/send-help">
                 I need help
+                </Link>
+                
                 </button>
             <button className="m-4 hover:bg-orange-700 w-64 h-64 rounded px-3 py-2 m-1 border-b-4 border-l-2 shadow-lg bg-orange-500 border-orange-600 text-white">
                 I want to help
