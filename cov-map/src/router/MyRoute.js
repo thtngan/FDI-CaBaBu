@@ -7,6 +7,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import AboutUs from "../pages/AboutUs";
 import WantToHelp from "../pages/WantToHelp";
+import HelpForm from "../pages/HelpForm";
 const userData = false;
 export default function MyRoute() {
     return (
@@ -26,6 +27,8 @@ export default function MyRoute() {
                 <Route path="/about" element={<AboutUs/>}/>
                 <Route path="/want-help" element={<WantToHelp/>}/>           
                 <Route path="/send-help" element={<SendHelp/>}/>
+                <Route path="/form" element={<HelpForm/>}/>           
+
 
             </Routes>     
         </Router>

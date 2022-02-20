@@ -94,13 +94,7 @@ export default function Register(){
                 <button type="submit" class="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white bg-orange-500 hover:bg-orange-700 tracking-wide font-semibold font-sans">Register</button>
 
                 <hr class="mb-6 border-t" />
-				<div class="text-center">
-					<a
-						class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-					    href="#">
-					    Forgot Password?
-					</a>
-				</div>
+
 				<div class="text-center">
 					<a
 						class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"

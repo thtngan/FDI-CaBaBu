@@ -1,6 +1,6 @@
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-
+import { Link } from "react-router-dom";
 const WantToHelp = () => {
     return ( 
         <div>
@@ -9,7 +9,7 @@ const WantToHelp = () => {
             </div>
         <div class="flex flex-row pt-7 mt-5">
             <div class="basis-1/2 mx-3">
-                <img src="/map.jpg"></img>
+                <Link to="/form"><img src="/map.jpeg"></img></Link>
             </div>
             <div class="basis-1/2 mx-3">
                 <div class="rounded-lg  bg-orange-500">

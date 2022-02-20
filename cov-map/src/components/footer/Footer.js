@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="absolute mt-auto bottom-0 w-screen bg-orange-500 dark:bg-gray-800">
-      <footer className="container mx-auto xl:px-40 pt-4 pb-4 xl:pt-8">
-        <div className="max-w-screen-lg xl:max-w-screen-xl mx-auto text-gray-400 dark:text-gray-300">
+    <div className="w-screen bg-orange-500 dark:bg-orange-600">
+      <footer className="container mx-auto xl:px-40 pt-4 pb-4 xl:pt-8 ">
+        <div className="max-w-screen-lg xl:max-w-screen-xl mx-auto text-white dark:text-orange-300">
           <ul className="text-lg font-light flex flex-wrap justify-center">
             <div className="text-left mb-4 md:w-1/3 lg:w-1/3">
               <div className="flex-1 flex sm:items-stretch sm:justify-center">
-                <div className="flex-shrink-0 flex items-center rounded-lg bg-gray-200 shadow-xl">
+                <div className="flex-shrink-0 flex items-center rounded-lg shadow-xl">
                   <Link to="/">
                     <img
                       className="block md:hidden h-5 w-auto"
@@ -33,8 +33,7 @@ export default function Footer() {
                 </h2>
                 <ul>
                   <li className="mb-2">
-                    <p>University of Science, Ho Chi Minh city,</p>
-                    <p>Viet Nam</p>
+                    <p>Ho Chi Minh City, Viet Nam</p>
                   </li>
                   <li className="mb-2 hover:text-gray-800 dark:hover:text-white transition-colors duration-200">
                     <a href="#">Email: Cababu@gmail.com</a>
@@ -67,7 +66,10 @@ export default function Footer() {
               </div>
             </li>
           </ul>
-          <div className="text-center text-xs">© Today is a good day to share</div>
+          <div className="text-center text-xs">©2021-Cababu</div>
+         
+          <div className="text-center text-xs"> Today is a good day to share</div>
+
         </div>
       </footer>
     </div>
