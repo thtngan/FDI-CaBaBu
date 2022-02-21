@@ -8,7 +8,7 @@ const HelpForm = () => {
                 <Header/>   
             </div>
 
-            <section className="bg-white border-b">
+            <section className="bg-white border-b ">
                 <br></br>
             <div class="min-w-sm border border-gray-700 bg-gray-700 text-gray-50 transition-shadow shadow-xl hover:shadow-xl min-w-max">
 			<br></br>
@@ -16,7 +16,7 @@ const HelpForm = () => {
 				<div class="flex items-center p-4">
 					<div class="relative flex flex-col items-center w-full">
 						<div
-							class="h-24 w-24 md rounded-full relative avatar flex items-end justify-end text-purple-400 min-w-max absolute -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white">
+							class="h-24 w-24 md rounded-full relative avatar flex items-end justify-end text-purple-400 min-w-max absolute -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white mt-14">
 							<img class="h-24 w-24 md rounded-full relative" src="https://avatars3.githubusercontent.com/u/11801238?v=4" alt=""/>
 							<div class="absolute"></div>
 						</div>

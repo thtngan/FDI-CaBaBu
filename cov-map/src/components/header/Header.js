@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header(){
     return (
-        <nav class="bg-orange-500 fixed w-full">
+        <nav class="bg-orange-500 fixed w-full top-0 z-50">
         <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div class="relative flex items-center justify-between h-16">
           
@@ -22,6 +22,10 @@ export default function Header(){
                     <div class="flex space-x-4">
                         <p class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">
                         <Link to="/">Home</Link></p>
+                        <p class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <Link to="/send-help">Need help</Link></p>
+                        <p class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">
+                        <Link to="/want-help">Want to help</Link></p>
                         <p class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">
                         <Link to="/about">Support</Link></p>
 
