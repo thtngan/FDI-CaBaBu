@@ -34,7 +34,7 @@ export default function WantToHelp(){
             </div>
             <div class="flex flex-row pt-7 mt-5">
                 <div class="basis-1/2 mx-3">
-                <div ref={mapContainer} className="map-container" />
+                    <div ref={mapContainer} className="map-container"/>
                 </div>
                 <div class="basis-1/2 mx-3">
                     <div class="rounded-lg  bg-orange-500">

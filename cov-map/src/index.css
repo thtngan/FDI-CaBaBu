@@ -15,3 +15,8 @@ code {
     monospace;
 }
 
+.map-container {
+  width: 687px;
+  height: 560px;
+}
+
