@@ -27,7 +27,7 @@ export default function Header(){
                         <p class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">
                         <Link to="/want-help">Want to help</Link></p>
                         <p class="hover:bg-orange-600 text-white px-3 py-2 rounded-md text-sm font-medium">
-                        <Link to="/about">Support</Link></p>
+                        <Link to="/about">About us</Link></p>
 
                     </div>
                 </div>
