@@ -2,6 +2,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ProfileMember from "../components/aboutUs/profile";
+import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
 
 export default function AboutUs() {
   var settings = {
@@ -70,24 +72,26 @@ export default function AboutUs() {
       description: "Design, Frontend",
       srcImg: "/Ava_Thanh.jpg",
       linkFb: "https://www.facebook.com/kimthanh3001",
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/thanhlhk/",
       linkGit: "https://github.com/Kimthanh11",
     },
   ];
   return (
     <div>
-     
+      <div className="pb-7">
+            <Header/>  
+      </div>
       <div className="text-xl font-bold pl-2 pb-0 mt-16 ">
         <div className="text-5xl font-bold text-gray-800 text-center mb-4">ABOUT US</div>
       </div>
       <Slider {...settings}>
           {member.map((item) => (
-          <div className="p-2">
+          <div className="p-2 py-14 my-14">
             <ProfileMember child={item}></ProfileMember>
           </div>
         ))}
       </Slider>
-
+      <Footer/>
     </div>
   );
 }
