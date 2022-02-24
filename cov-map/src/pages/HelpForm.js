@@ -17,7 +17,7 @@ const HelpForm = () => {
 					<div class="relative flex flex-col items-center w-full">
 						<div
 							class="h-24 w-24 md rounded-full relative avatar flex items-end justify-end text-purple-400 min-w-max absolute -top-16 flex bg-purple-200 text-purple-100 row-start-1 row-end-3 text-purple-650 ring-1 ring-white mt-14">
-							<img class="h-24 w-24 md rounded-full relative" src="https://avatars3.githubusercontent.com/u/11801238?v=4" alt=""/>
+							<img class="h-24 w-24 md rounded-full relative" src="/logoCovMAP-02.svg" alt=""/>
 							<div class="absolute"></div>
 						</div>
 						<div class="flex flex-col space-y-1 justify-center items-center -mt-12 w-full">
@@ -44,9 +44,7 @@ const HelpForm = () => {
                 </h1>
                 <div className="w-full mb-4">
                     <div className="w-full text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                    
+                    I am a worker, because of the Covid epidemic, I have been unemployed for 4 months. I am the main breadwinner of the family, currently, unable to manage a family of 4. I hope to receive support for rice and food and drink.
                     </div>
                 </div>
                 

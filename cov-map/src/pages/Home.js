@@ -8,7 +8,7 @@ const Home = () => {
     return ( 
     <div className="min-h-screen ">
         <Header/>
-        <section className="bg-white border-b py-8  bg-gradient-to-r from-red-400 to-yellow-200">
+        <section className="bg-white border-b py-8 bg-gradient-to-r from-red-400 to-yellow-200">
         <br></br>
         <div className="text-white font-mono flex flex-col mt-4">
             <div className="flex flex-row-reverse flex-wrap m-auto">
@@ -99,10 +99,11 @@ const Home = () => {
                         FOOD
                 </p>
                 <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet.
+                    No more hunger
                 </div>
                 <p className="text-gray-800 text-base px-6 mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                We support to bring food to every home
+              
                 </p>
                 </a>
             </div>
@@ -116,10 +117,11 @@ const Home = () => {
                 </p>
                 
                 <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet.
+                    No more illness
                 </div>
                 <p className="text-gray-800 text-base px-6 mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                We provide timely health care support
+
                 </p>
                 </a>
             </div>
@@ -132,10 +134,11 @@ const Home = () => {
                 DAILY NESSCESSITY
                 </p>
                 <div className="w-full font-bold text-xl text-gray-800 px-6">
-                    Lorem ipsum dolor sit amet.
+                    No more difficulty
                 </div>
                 <p className="text-gray-800 text-base px-6 mb-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                   
+                    We support people to overcome difficult circumstances
                 </p>
                 </a>
             </div>
@@ -157,7 +160,8 @@ const Home = () => {
             Giving laptops to poor children to study online
             </h3>
             <p className="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              
+Regarding online learning during the Covid epidemic season, according to statistics, up to 1.5 million students do not have enough electronic devices to study online. Our purpose is to raise funds to support poor children.
 
             </p>
             <div className="flex items-center justify-end">
@@ -183,7 +187,8 @@ const Home = () => {
               COVID-19: Relief & Recovery Efforts
               </h3>
               <p className="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                
+              This community was created to support difficult situations affected by the Covid-19 epidemic.
               </p>
               <div className="flex items-center justify-end">
               <button className="mx-auto bg-orange-500 lg:mx-0 gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">

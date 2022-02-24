@@ -78,9 +78,6 @@ export default function AboutUs() {
   ];
   return (
     <div>
-      <div className="pb-7">
-            <Header/>  
-      </div>
       <div className="text-xl font-bold pl-2 pb-0 mt-16 ">
         <div className="text-5xl font-bold text-gray-800 text-center mb-4">ABOUT US</div>
       </div>
@@ -91,7 +88,6 @@ export default function AboutUs() {
           </div>
         ))}
       </Slider>
-      <Footer/>
     </div>
   );
 }
