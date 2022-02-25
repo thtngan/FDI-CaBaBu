@@ -51,10 +51,10 @@ const Home = () => {
             <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow border-t-4 border-orange-600">
                 <div className="text-5xl text-orange-500 font-bold text-center m-2 ">
-                403,769,801
+                3,041,506
                 </div>
                 <div className="w-full text-base text-gray-800 px-6 text-center m-2">
-                Number of coronavirus (COVID-19) cases worldwide
+                Number of coronavirus (COVID-19) cases in Vietnam
                 </div>
             </div>
             </div>
@@ -62,10 +62,10 @@ const Home = () => {
             <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow border-t-4 border-orange-600">
                 <div className="text-5xl text-orange-500 font-bold text-center m-2 ">
-                5,796,553
+                39,884
                 </div>
                 <div className="w-full text-base text-gray-800 px-6 text-center m-2">
-                Number of novel coronavirus (COVID-19) deaths worldwide
+                Number of novel coronavirus (COVID-19) deaths in Vietnam
                 </div>
             </div>
             </div>
@@ -73,10 +73,10 @@ const Home = () => {
             <div className="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow border-t-4 border-orange-600">
                 <div className="text-5xl text-orange-500 font-bold text-center m-2 ">
-                3,016,150,000
+                2,339,784
                 </div>
                 <div className="w-full text-base text-gray-800 px-6 text-center m-2">
-                Number of COVID-19 vaccine doses administered worldwide
+                Number of recovered in Vietnam
                 </div>
             </div>
             </div>

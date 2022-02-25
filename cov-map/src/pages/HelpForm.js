@@ -58,8 +58,8 @@ const HelpForm = () => {
                 </h1>
 
 				<img class="h-60 w-66 md relative m-2" src="/help.png" alt=""/>
-				<img class="h-60 w-66 md relative m-2" src="/help.png" alt=""/>
-				<img class="h-60 w-66 md relative m-2" src="/help.png" alt=""/>
+				<img class="h-60 w-66 md relative m-2" src="/proof.jpg" alt=""/>
+				<img class="h-60 w-66 md relative m-2" src="/proof2.jpg" alt=""/>
     
             </div>
             </section>
